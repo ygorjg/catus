@@ -41,6 +41,7 @@
 .search-icon,
 .cart-icon {
   width: 30px;
+  cursor: pointer;
 }
 
 .cart-container {
