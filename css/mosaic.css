@@ -1,0 +1,33 @@
+.mosaic-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.group-banners-1,
+.group-banners-2 {
+  display: none;
+  flex-direction: column;
+}
+
+.banner {
+  margin-top: 25px;
+}
+
+@media (min-width: 800px) {
+  .group-banners-1 {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .group-banners-2 {
+    display: flex;
+  }
+}
+
+@media (min-width: 1800px) {
+  .mosaic-container {
+    gap: 100px;
+  }
+}
