@@ -1,0 +1,86 @@
+.footer-container {
+  width: 100%;
+  height: 100%;
+  background-color: #404040;
+  font-family: "Inter", sans-serif;
+  padding: 30px 0px 15px 25px;
+}
+
+.division-bar-container {
+  display: flex;
+  margin-top: 8px;
+}
+
+.bar-1 {
+  width: 100px;
+  border-bottom: 2px solid #32bcad;
+}
+
+.bar-2 {
+  width: 150px;
+  border-bottom: 2px solid #cfcfcf;
+}
+
+.central-title,
+.seals-title,
+.payment-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.seals-title,
+.payment-title {
+  margin-top: 30px;
+}
+
+.central-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.central-list,
+.seals-images,
+.payment-images {
+  margin-top: 15px;
+}
+
+.barcode {
+  width: 45px;
+  background-color: #ffffff;
+}
+
+.pix {
+  width: 85px;
+  background-color: #ffffff;
+}
+
+.central-item,
+.schedules-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f6f6f6;
+}
+
+.contact,
+.schedules-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+@media (min-width: 1000px) {
+  .footer-container {
+    display: flex;
+    height: 280px;
+    padding: 50px 0px 0px 0px;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .seals-title,
+  .payment-title {
+    margin-top: 0px;
+  }
+}
